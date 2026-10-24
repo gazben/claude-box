@@ -11,4 +11,3 @@ claude-box() {
     --memory 16g --pids-limit 512 \
     claude-box claude --dangerously-skip-permissions "$@"
 }
-˙˙`
