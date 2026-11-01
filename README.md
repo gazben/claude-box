@@ -1,3 +1,11 @@
+Build it:
+
+```
+docker build --no-cache --build-arg NODE_MAJOR=26 \
+  --build-arg UID=$(id -u) --build-arg GID=$(id -g) \
+  -t claude-box .
+```
+
 Use it as a command:
 
 Add to your `~/.zshrc`
